@@ -8,4 +8,8 @@
   <ItemGroup>
     <Compile Remove="EmptyClass.cs" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Output\" />
+  </ItemGroup>
 </Project>

@@ -9,7 +9,7 @@ namespace ProgAssign1
     public class Exceptions
     {
 
-        static void Main()
+        /*static void Main()
         {
              var sw = OpenStream(@".\sampleFile.csv");
             if (sw is null)
@@ -17,7 +17,7 @@ namespace ProgAssign1
             sw.WriteLine("This is the first line.");
             sw.WriteLine("This is the second line.");
             sw.Close();
-        }
+        }*/
 
         static StreamWriter OpenStream(string path)
         {

@@ -10,9 +10,7 @@ namespace ProgAssign1
 
         public void walk(String path)
         {
-            
             string[] list = Directory.GetDirectories(path);
-
 
             if (list == null) return;
 
@@ -27,16 +25,17 @@ namespace ProgAssign1
             string[] fileList = Directory.GetFiles(path);
             foreach (string filepath in fileList)
             {
-
                     Console.WriteLine("File:" + filepath);
             }
         }
 
-//        public static void Main(String[] args)
-//        {
-//            DirWalker fw = new DirWalker();
-//           fw.walk(@"/");
-//        }
+        /*public static void Main(String[] args)
+        {
+            string currentDir = Environment.CurrentDirectory;
+            string dirToWalk = Path.Combine(currentDir, "..", "..", "..", "Test Directory");
+            DirWalker fw = new DirWalker();
+            fw.walk(dirToWalk);
+        }*/
 
     }
 }
