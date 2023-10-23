@@ -1,0 +1,15 @@
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.exe
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.deps.json
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.runtimeconfig.json
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.runtimeconfig.dev.json
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.dll
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\bin\Debug\net5.0\ProgAssign1.pdb
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.AssemblyInfoInputs.cache
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.AssemblyInfo.cs
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.csproj.CoreCompileInputs.cache
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.dll
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\refint\ProgAssign1.dll
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.pdb
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ProgAssign1.genruntimeconfig.cache
+C:\Users\srajb\Source\Repos\A00431008_MCDA5510\Assignment1\ProgAssign1\obj\Debug\net5.0\ref\ProgAssign1.dll

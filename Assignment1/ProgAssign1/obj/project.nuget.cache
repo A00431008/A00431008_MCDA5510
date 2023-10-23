@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "cFTMnyprj2rRZXTrIeivjjMl0p0lbpPcFOtIAxF5Rzlgz1HNLaFmKO60T6abh5fvJ++vjPlRzIoyfTTkhNbVLA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\srajb\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\srajb\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\srajb\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\srajb\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
