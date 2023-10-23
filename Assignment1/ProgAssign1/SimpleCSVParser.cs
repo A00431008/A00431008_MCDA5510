@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Diagnostics;
 using Microsoft.VisualBasic.FileIO;
 
 namespace ProgAssign1
@@ -27,7 +28,7 @@ namespace ProgAssign1
             {
                 parser.TextFieldType = FieldType.Delimited;
                 parser.SetDelimiters(",");
-                    while (!parser.EndOfData)
+                while (!parser.EndOfData)
                 {
                     //Process row
                     List<String> row = new List<String>();
@@ -46,7 +47,11 @@ namespace ProgAssign1
                         }
                     }
                     if (rowValid)
-                    {
+                    {       // Assumption: Header of CSV is skipped if header already exists
+                            if (row[0].Contains("First Name"))
+                            {
+                                continue;
+                            }
                             row.Add(Environment.NewLine);
                             string outputFilePath = Path.Combine(Environment.CurrentDirectory,
                                 "..", "..", "..", "Output", "output.csv");

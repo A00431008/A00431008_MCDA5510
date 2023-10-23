@@ -1,0 +1,6 @@
+Program execution started at 10/23/2023 2:49:40 PM.
+
+Program execution stopped at 10/23/2023 2:49:41 PM.
+Time elapsed: 1060 ms.
+Total number of valid Rows: 1006.
+Total number of skipped Rows: 455.
