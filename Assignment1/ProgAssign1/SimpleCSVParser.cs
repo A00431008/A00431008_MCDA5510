@@ -8,16 +8,16 @@ namespace ProgAssign1
     public class SimpleCSVParser
     {
 
-        public static void Main(String[] args)
+        /*public static void Main(String[] args)
         {
             string currentDir = Environment.CurrentDirectory;
-            string dirToWalk = Path.Combine(currentDir, "..", "..", "..", "Test Directory");
+            string dirToWalk = Path.Combine(currentDir, "..", "..", "..", "TestDirectory");
             SimpleCSVParser parser = new SimpleCSVParser();
             int skippedRows = 0, validRows = 0;
             parser.parse(Path.Combine(dirToWalk, "CustomerData0.csv"), ref skippedRows, ref validRows);
             Console.WriteLine("Skipped : " + skippedRows);
             Console.WriteLine("Valid: " + validRows);
-        }
+        }*/
 
 
         public void parse(String fileName, ref int skippedRows, ref int validRows)
