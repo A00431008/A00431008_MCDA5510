@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Assignment1",
-    "\\Assignment1\\ProgAssign1"
+    "\\Assignment1\\ProgAssign1",
+    "\\Assignment1\\ProgAssign1\\logs",
+    "\\Assignment1\\ProgAssign1\\Output",
+    "\\Assignment1\\ProgAssign1\\TestDirectory"
   ],
   "SelectedNode": "\\Assignment1\\ProgAssign1.sln",
   "PreviewInSolutionExplorer": false

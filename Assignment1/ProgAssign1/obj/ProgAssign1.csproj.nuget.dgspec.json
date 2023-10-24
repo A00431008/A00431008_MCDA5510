@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj": {}
+    "C:\\Users\\srajb\\source\\repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj": {
+    "C:\\Users\\srajb\\source\\repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
+        "projectUniqueName": "C:\\Users\\srajb\\source\\repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
         "projectName": "ProgAssign1",
-        "projectPath": "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
+        "projectPath": "C:\\Users\\srajb\\source\\repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\ProgAssign1.csproj",
         "packagesPath": "C:\\Users\\srajb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\srajb\\Source\\Repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\obj\\",
+        "outputPath": "C:\\Users\\srajb\\source\\repos\\A00431008_MCDA5510\\Assignment1\\ProgAssign1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\srajb\\AppData\\Roaming\\NuGet\\NuGet.Config",

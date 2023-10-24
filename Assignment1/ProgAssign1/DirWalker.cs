@@ -4,12 +4,13 @@ using System.Diagnostics;
 
 namespace ProgAssign1
 {
-  
-
     public class DirWalker
     {
 
-        public void walk(String path, ref int skippedRows, ref int validRows, ref int totalFiles)
+        public void walk(String path, 
+            ref int skippedRows, 
+            ref int validRows, 
+            ref int totalFiles)
         {
             SimpleCSVParser parser = new SimpleCSVParser();
             string[] list = Directory.GetDirectories(path);
@@ -38,35 +39,33 @@ namespace ProgAssign1
             string currentDir = Environment.CurrentDirectory;
             string dirToWalk = Path.Combine(currentDir, "..", "..", "..", "TestDirectory");
             string logFile = Path.Combine(currentDir, "..", "..", "..", "logs", "log.txt");
-            
-            TextWriterTraceListener log = new TextWriterTraceListener(logFile);
-            Trace.Listeners.Add(log);
-            DateTime startTime = DateTime.Now;
-            
+
             int skippedRows = 0;
             int validRows = 0;
             int totalFiles = 0;
-            
+
+            TextWriterTraceListener log = new TextWriterTraceListener(logFile);
+            Trace.Listeners.Add(log);
+            DateTime startTime = DateTime.Now;
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
-            Trace.WriteLine($"Program execution started at {startTime}.\n");
+            Trace.WriteLine($"Program execution started at {startTime}\n");
 
             DirWalker fw = new DirWalker();
             fw.walk(dirToWalk, ref skippedRows, ref validRows, ref totalFiles);
 
             stopwatch.Stop();
             DateTime stopTime = DateTime.Now;
-            Trace.WriteLine($"Program execution stopped at {stopTime}.\n" +
-                $"Time elapsed: {stopwatch.ElapsedMilliseconds} ms.\n" +
-                $"Total number of valid Rows: {validRows}.\n" +
-                $"Total number of skipped Rows: {skippedRows}.");
+            Trace.WriteLine($"Program execution stopped at {stopTime}\n" +
+                $"Time elapsed: " +
+                $"{stopwatch.Elapsed.TotalSeconds} seconds\n" +
+                $"Total number of valid Rows: {validRows}\n" +
+                $"Total number of skipped Rows: {skippedRows}\n");
 
             Trace.Listeners.Remove(log);
             log.Close();
 
-            Console.WriteLine("Skipped: " + skippedRows);
-            Console.WriteLine("Valid: " + validRows);
-            Console.WriteLine("Total Files: " + totalFiles);
+            Console.WriteLine("Program execution complete !!");
         }
 
     }
