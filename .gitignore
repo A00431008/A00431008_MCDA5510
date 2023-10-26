@@ -1,0 +1,3 @@
+# Ignore "Sample Data.zip" and "InClassDemo" at the root level
+Sample Data.zip
+/InClassDemo
